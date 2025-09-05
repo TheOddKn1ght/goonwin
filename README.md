@@ -11,9 +11,7 @@ The goal is to provide native Go versions of classic UNIX utilities.
 
 Currently implemented(?) utilities:
 
-- **`cat`-like reader** – Reads and prints contents of files.
-- **`wget`-like downloader** – Downloads files from URLs to the local filesystem.
-- **`shred`** – Attempts to overwrite and remove files or directories (⚠️).
-
-TODO:
-- Additional reimplementations of common GNU/coreutils functionality in Go for Windows.
+- **`cat`-like reader** - Reads and prints contents of files.
+- **`wget`-like downloader** - Downloads files from URLs to the local filesystem.
+- **`shred`** - Attempts to overwrite and remove files or directories (⚠️).
+- **`genpass`** - Securely (?) generates passwords for you.
