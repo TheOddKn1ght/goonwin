@@ -12,7 +12,7 @@ import (
 
 const letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 const digits = "0123456789"
-const specials = "!@#$%^&*()-='"
+const specials = "!@#$%^&*()-=+[]{}|;:'\",.<>?/`~"
 
 func main() {
 	length := flag.Int("l", 20, "length of the password to generate")
