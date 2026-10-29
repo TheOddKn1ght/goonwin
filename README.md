@@ -1,17 +1,5 @@
 # goonwin
 
-**goonwin** is a collection of core utility tools reimplemented in Go, specifically tailored for Windows environments.  
-The goal is to provide native Go versions of classic UNIX utilities.
+UNIX-style utilities in Go for Windows: a file reader, downloader, password generator, and `shred`.
 
-> ⚠️ **Note:** The included `shred` utility is **not recommended for secure file deletion** since I have no idea what I'm doing
-
----
-
-## Features
-
-Currently implemented(?) utilities:
-
-- **`cat`-like reader** - Reads and prints contents of files.
-- **`wget`-like downloader** - Downloads files from URLs to the local filesystem.
-- **`shred`** - Attempts to overwrite and remove files or directories (⚠️).
-- **`genpass`** - Securely (?) generates passwords for you.
+Do not rely on `shred` for secure deletion.
